@@ -1,0 +1,58 @@
+CRITICAL - 2023-05-27 04:44:49 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\spark(46): require('E:\\Semester 2\\R...')
+#2 {main}
+CRITICAL - 2023-05-27 04:47:25 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\spark(46): require('E:\\Semester 2\\R...')
+#2 {main}
+CRITICAL - 2023-05-27 04:49:45 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\spark(46): require('E:\\Semester 2\\R...')
+#2 {main}
+CRITICAL - 2023-05-27 04:57:11 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\spark(46): require('E:\\Semester 2\\R...')
+#2 {main}
+ERROR - 2023-05-27 10:00:42 --> Error connecting to the database: Unknown database 'db_inventori'
+CRITICAL - 2023-05-27 10:00:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_inventori'
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, 1)
+#4 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\app\Controllers\Dashboard.php(20): CodeIgniter\BaseModel->find(1)
+#5 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#6 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Semester 2\\R...')
+#10 {main}
+ERROR - 2023-05-27 10:01:05 --> Error connecting to the database: Unknown database 'db_inventori'
+CRITICAL - 2023-05-27 10:01:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_inventori'
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, 1)
+#4 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\app\Controllers\Dashboard.php(20): CodeIgniter\BaseModel->find(1)
+#5 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#6 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Semester 2\\R...')
+#10 {main}
+ERROR - 2023-05-27 10:03:04 --> Error connecting to the database: Unknown database 'db_inventori'
+CRITICAL - 2023-05-27 10:03:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_inventori'
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, 1)
+#4 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\app\Controllers\Dashboard.php(20): CodeIgniter\BaseModel->find(1)
+#5 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#6 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Semester 2\\R...')
+#10 {main}

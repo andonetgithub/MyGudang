@@ -1,0 +1,7 @@
+CRITICAL - 2023-05-23 16:00:36 --> Class "App\Controllers\WebModel" not found
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Dashboard->__construct()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Semester 2\\R...')
+#5 {main}

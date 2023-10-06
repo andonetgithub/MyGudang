@@ -1,0 +1,14 @@
+ERROR - 2023-05-29 11:29:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-05-29 11:29:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#5 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->masuk()
+#6 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Semester 2\RPL\Pembuatan SRS\inventory-ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Semester 2\\R...')
+#10 {main}
